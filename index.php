@@ -53,7 +53,7 @@
                 <h5 class="header col s12 light">Développeur fraîchement sortie de la Wild Code School</h5>
             </div>
             <div class="row center">
-                <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Visiter</a>
+                <a href="about_me.html" id="download-button" class="btn-large waves-effect waves-light orange">Visiter</a>
                 <!--Modal-->
                 <a class="btn-large waves-effect waves-light blue" href="#modal1">Recruter</a>
 
