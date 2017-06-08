@@ -12,7 +12,8 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.other{
+
+.other {
     background-color: #ECF0F0;
 }
 
@@ -84,11 +85,11 @@ header, main, footer, section {
     margin-top: 300px;
     margin-left: 40%;
 }
+
 .copyright {
     text-align: center;
     margin-bottom: 10px;
 }
-
 
 /*****/
 
@@ -109,6 +110,16 @@ header {
     font-size: inherit;
 }
 
+.card .card-content .circle {
+    width: 50px;
+    height: 50px;
+}
+
+.card .card-content .card-title {
+    color: #FF9800;
+    font-style: italic;
+}
+
 /*****/
 
 /*Modal*/
@@ -122,6 +133,7 @@ form p:last-child {
 section {
 
 }
+
 /*****/
 
 /*Footer*/
