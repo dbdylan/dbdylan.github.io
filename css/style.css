@@ -41,8 +41,8 @@ header, main, footer, section {
 
 .side-nav .userView .circle {
     margin-left: 30%;
-    width: 80px;
-    height: 80px;
+    width: 85px;
+    height: 100px;
 }
 
 .side-nav .userView .background {
@@ -51,7 +51,7 @@ header, main, footer, section {
 
 .side-nav .userView {
     padding-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     background-color: #1C262B;
 }
 
@@ -66,6 +66,7 @@ header, main, footer, section {
 .side-nav .userView .name {
     font-size: 30px;
     text-align: center;
+    margin-top: 5px;
 }
 
 .side-nav .userView .email {
@@ -88,9 +89,14 @@ header, main, footer, section {
 
 .copyright {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
-
+.userView p {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #FFA500;
+}
 /*****/
 
 /*Header*/
@@ -134,6 +140,11 @@ section {
 
 }
 
+/*****/
+/*Contact*/
+.contact a {
+    color: #FF9800;
+}
 /*****/
 
 /*Footer*/
