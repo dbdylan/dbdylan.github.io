@@ -133,7 +133,9 @@ header {
     color: #FF9800;
     font-style: italic;
 }
-
+.card .card-image img {
+    height: 250px;
+}
 /*****/
 
 /*Modal*/
@@ -152,6 +154,14 @@ section {
 }
 
 /*****/
+
+/*Tasks*/
+img {
+height: 150px;
+}
+
+/*****/
+
 /*Contact*/
 .contact a {
     color: #FF9800;
