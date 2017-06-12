@@ -17,9 +17,11 @@
 .other {
     background-color: #ECF0F0;
 }
+
 h5 {
     color: #ffffff;
 }
+
 /*****/
 /*Nav*/
 
@@ -43,6 +45,19 @@ header, main, footer, section {
         padding-left: 0;
     }
 }
+
+@media screen and (max-width: 992px) {
+   .social {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .social {
+        margin-top: 300px;
+    }
+}
+
 
 .side-nav .userView .circle {
     margin-left: 30%;
@@ -89,7 +104,7 @@ header, main, footer, section {
 }
 
 .social {
-    margin-top: 300px;
+    /*margin-top: 300px;*/
     margin-left: 40%;
 }
 
@@ -106,16 +121,13 @@ header, main, footer, section {
 }
 
 /*****/
-
 /*Header*/
 header {
     margin-top: 250px;
 }
 
 /*****/
-
 /*Main*/
-
 .icon-block {
     padding: 0 15px;
 }
@@ -133,35 +145,34 @@ header {
     color: #FF9800;
     font-style: italic;
 }
+
 .card .card-image img {
     height: 250px;
 }
-/*****/
 
+/*****/
 /*Modal*/
 form p:last-child {
     text-align: center;
 }
+
 .modal-content a {
     color: #FF9800;
 }
 
 /*****/
-
 /*Section*/
 section {
 
 }
 
 /*****/
-
 /*Tasks*/
 img {
-height: 150px;
+    height: 150px;
 }
 
 /*****/
-
 /*Contact*/
 .contact a {
     color: #FF9800;
