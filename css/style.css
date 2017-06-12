@@ -53,6 +53,7 @@ header, main, footer, section {
     padding-top: 20px;
     margin-bottom: 0px;
     background-color: #1C262B;
+    text-align: center;
 }
 
 .background img {
