@@ -11,12 +11,15 @@
     background-image: url("../images/background_header-min.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 .other {
     background-color: #ECF0F0;
 }
-
+h5 {
+    color: #ffffff;
+}
 /*****/
 /*Nav*/
 
@@ -31,6 +34,8 @@ i.medium {
 
 header, main, footer, section {
     padding-left: 300px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: x-large;
 }
 
 @media only screen and (max-width: 992px) {
@@ -92,12 +97,14 @@ header, main, footer, section {
     text-align: center;
     margin-bottom: 0px;
 }
+
 .userView p {
     font-size: 20px;
     margin-bottom: 5px;
     margin-top: 5px;
     color: #FFA500;
 }
+
 /*****/
 
 /*Header*/
@@ -133,6 +140,9 @@ header {
 form p:last-child {
     text-align: center;
 }
+.modal-content a {
+    color: #FF9800;
+}
 
 /*****/
 
@@ -146,6 +156,7 @@ section {
 .contact a {
     color: #FF9800;
 }
+
 /*****/
 
 /*Footer*/
